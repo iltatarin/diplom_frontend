@@ -1,0 +1,99 @@
+.Navbar {
+  width: 100%;
+  min-width: 300px;
+  height: 50px;
+
+  nav {
+    background: #343a40;
+    display: inline-block;
+    width: 100%;
+    div {
+      ul {
+        list-style: none;
+        float: left;
+        display: flex;
+        height: 50px;
+        width: auto;
+        margin: 0;
+        padding: 0;
+        flex-direction: row;
+        justify-content: left;
+
+        li {
+          margin: 4px 4px 0 0;
+          color: #ccc;
+
+          .nav-link {
+            color: #fff;
+            padding: 0.5rem 1rem 0.5rem 1rem;
+          }
+
+          :hover {
+            color: #200df0;
+          }
+        }
+      }
+
+      div {
+        margin: 10px 20px 0 0;
+        width: auto;
+        padding: 0;
+        float: right;
+        display: inline-block;
+
+        input {
+          margin: 0 10px 10px 0;
+          border-radius: 5px;
+          padding: 4px 10px 4px 10px;
+          width: 400px;
+          outline: none;
+        }
+
+        button {
+          border-radius: 5px;
+          border: 2px solid green;
+          color: green;
+          padding: 4px 15px 4px 15px;
+          background: rgba(0, 0, 0, 0);
+          text-decoration: none;
+
+        }
+        button:hover {
+          border: 2px solid #200df0;
+          color: #200df0;
+        }
+      }
+    }
+  }
+
+  @media (min-width: 960px) {
+    nav {
+      div {
+        ul {
+          li {
+            .nav-link {
+              padding: 0.5rem 8px 0.5rem 8px;
+            }
+          }
+        }
+        div {
+          input {
+            width: 300px;
+            outline: none;
+          }
+        }
+      }
+    }
+  }
+  @media (min-width: 1100px) {
+    nav div ul li .nav-link {
+      padding: 0.5rem 1rem 0.5rem 1rem;
+    }
+
+
+    nav div div input {
+      width: 350px;
+      outline: none;
+    }
+  }
+}

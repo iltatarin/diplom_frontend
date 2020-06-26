@@ -1,0 +1,48 @@
+@import "~bootstrap/scss/bootstrap";
+
+.searchedAdverts {
+  .row {
+    padding: 20px 0 10px 10px;
+    width: 100%;
+    margin: 0;
+
+    .card {
+      margin: 0;
+      width: 253px;
+      padding: 0 2px 0 0;
+
+      .card_media {
+        width: 253px;
+        height: 150px;
+        text-align: center;
+
+        .card_img_top {
+          max-width: 253px;
+          min-width: 200px;
+          max-height: 150px;
+          min-height: 100px;
+        }
+      }
+
+      .card-body {
+        margin: 0;
+        padding: 10px 0 10px 15px;
+
+        .card-title {
+          padding: 0;
+          margin: 0 0 5px 0;
+        }
+
+        .card-text {
+          color: grey;
+          padding: 0;
+          margin: 0 0 5px 0;
+        }
+
+        a {
+          outline: none;
+        }
+      }
+    }
+  }
+}

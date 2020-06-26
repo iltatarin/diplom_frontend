@@ -1,0 +1,168 @@
+.ProfileAdvertEdit {
+  padding-top: 50px;
+  height:100%;
+  width: 100%;
+  margin: 0;
+
+  div {
+    .form {
+      margin: auto;
+      width: 80%;
+      min-width: 800px;
+
+
+      .error_message {
+        color: red;
+        padding-left: 15px;
+      }
+
+      div.category{
+        color: white;
+
+        select {
+          margin-top: 10px;
+          margin-left: 47px;
+          width: 300px;
+          border-radius: 4px;
+          border: 2px solid #8c8a8c;
+          height: 30px;
+          padding-left: 4px;
+          outline: none;
+        }
+        select:hover {
+          border: 2px solid #200dcc;
+        }
+      }
+
+
+      div.description {
+        color: white;
+        margin-top: 30px;
+        label {
+          padding: 0;
+          margin: 24px 0 0 0;
+          width: 100%;
+        }
+        input {
+          border: 1px solid #a4a7a0;
+          border-radius: 4px;
+          margin-left: 36px;
+          width: 400px;
+          padding: 2px 2px 2px 5px;
+        }
+        textarea {
+          padding: 2px 2px 2px 5px;
+          border-radius: 5px;
+          width: 400px;
+          height: 150px;
+          margin-left: 200px;
+          margin-top: -22px;
+        }
+      }
+
+
+      div.location{
+        color: white;
+        margin-top: 30px;
+        select {
+          margin-top: 10px;
+          margin-left: 147px;
+          width: 300px;
+          border-radius: 4px;
+          border: 2px solid #8c8a8c;
+          height: 30px;
+          padding-left: 4px;
+          outline: none;
+        }
+        select.city {
+          margin-left: 158px;
+        }
+        select:hover {
+          border: 2px solid #200dcc;
+        }
+
+
+        div.address{
+          color: white;
+          margin-top: 10px;
+          margin-bottom: 12px;
+          input {
+            border: 1px solid #a4a7a0;
+            border-radius: 4px;
+            margin-left: 155px;
+            width: 400px;
+            padding: 2px 2px 2px 5px;
+          }
+        }
+        input:hover {
+          border: 4px solid #6c04cc;
+        }
+      }
+
+
+      div.params{
+        color: black;
+        margin-top: 30px;
+        input {
+          border: 1px solid #a4a7a0;
+          border-radius: 4px;
+          margin-left: 109px;
+          width: 300px;
+          padding: 2px 2px 2px 5px;
+        }
+      }
+
+
+      div.contacts {
+        margin-top: 30px;
+        margin-bottom: 30px;
+        input {
+          border: 1px solid #a4a7a0;
+          border-radius: 4px;
+          margin: 10px 0 0 72px;
+          width: 300px;
+          padding: 2px 2px 2px 5px;
+        }
+        div {
+          div.contact_label {
+            float: left;
+          }
+          div.contact_type {
+            margin: 20px 0 0 199px;
+            p{
+              margin: 2px 0 0 0;
+              input{
+                width: 20px;
+                height: 20px;
+                margin: 2px 5px 0 2px;
+              }
+            }
+          }
+        }
+      }
+
+
+      div.create_advert {
+        margin-bottom: 50px;
+        button {
+          display: inline-block;
+          background: rgb(99, 204, 123);
+          border-radius: 8px;
+          width: 400px;
+          height: 50px;
+          background: rgba(133, 148, 255, 0.45);
+          text-align: center;
+          padding: 0;
+          margin: 0 0 0 197px;
+        }
+        a {
+          color: black;
+          text-decoration: none;
+        }
+        .removeAdvert {
+          background: #f01f30;
+        }
+      }
+    }
+  }
+}
